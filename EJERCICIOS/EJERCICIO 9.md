@@ -78,3 +78,46 @@ while True:
 
   else:
     print(f'Opción no valida ')
+    
+    
+    
+    
+    #ejercicio con poo
+    
+    
+    #se crea la clase
+class Agenda
+#se crea iniit que hará referencia a los contactos
+def __init__(self,contactos, nombre, tel, email):
+    self.contactos= []
+    self.nombre= []
+    self.tel=[]
+    self.email[]
+    
+def opciones (self):
+    opciones=[
+			['Agenda Personal'],
+			['1 - Añadir Contacto'],
+			['2 - Lista de contactos'],
+			['3 - Buscar contacto'],
+			['4 - Editar contacto'],
+			['5 - Cerrar agenda']
+		]
+		opciones=input('ingrese el número de la opción deseada')
+		if opciones ==1:
+		    def añadir (self):
+		        nombre=input("Introduzca el nombre: ")
+		        tel=int(input("Introduzca el teléfono: "))
+		        email=input("Introduzca el email: ")
+		self.contactos.append({'nombre':nombre,'tel':telf,'email':email})
+		    def lista==2:
+		        for contactos in agenda:
+		            print('La lista de contactos es:')
+		            print(f'El nombre:{nombre}')
+		            print(f'El teléfono es :{tel}')
+		            print(f'El email es : {email}')
+		            
+		            
+
+		        
+ 
