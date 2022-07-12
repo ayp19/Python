@@ -2,7 +2,7 @@
 ### 5.1 Ejercicio 1 (2 puntos)
 Programa que imprima si el número es positivo o negativo, el número debe ser ingresado por consola.
 
-# Declaro la variable
+#Declaro la variable
 
 
 num=0
@@ -14,7 +14,7 @@ num=0
 num=float (input('Ingrese un número '))
 
 
-# se usa la condición if
+#se usa la condición if
 
 
 if num ==0:
