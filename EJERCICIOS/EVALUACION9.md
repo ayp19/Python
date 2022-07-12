@@ -20,7 +20,14 @@ Recuerda el import random
 ## Ejercicio 2 (2 puntos)
 Obtener el cuadrado de todos los elementos en la lista.
 
+
 Lista: [1,2,3,4,5,6,7,8,9,10]
+
+lista=[numero** 2 for numero in range (0,10)]
+
+
+print (lista)
+
 
 ## Ejercicio 3 (2 puntos)
 Obtener la cantidad de elementos mayores a 5 en la tupla.
