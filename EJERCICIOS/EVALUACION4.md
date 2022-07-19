@@ -6,7 +6,7 @@ y posteriormente muestre en pantalla cada elemento de la lista junto con su
 cuadrado y su cubo.
 Respuesta:
 
-import random 
+'''import random 
 
 
 listaNumeros = [] 
@@ -21,7 +21,7 @@ for indice in range(1,11):
 for numero in listaNumeros:
 
 
-  print(numero," ",numero ** 2," ",numero ** 3)
+  print(numero," ",numero ** 2," ",numero ** 3)'''
 
 
 
@@ -30,20 +30,8 @@ Crea una lista e inicializarla con 5 cadenas de caracteres leídas por teclado. 
 los elementos de la lista en otra lista pero en orden inverso, y muestra sus
 elementos por la pantalla.
 
-},
-      "outputs": [],
-      "source": [
-        "import random # para poder generar los números aleatorios\n",
-        "lista_numeros = [] # la lista donde se guardarán\n",
-        "# Primer recorrido para leer la lista\n",
-        "for indice in range(1,11):\n",
-        "  lista_numeros.append(random.randint(1,10))\n",
-        "## Segundo recorrido para mostrar el resultado\n",
-        "for numero in lista_numeros:\n",
-        "  print(numero,\" \",numero ** 2,\" \",numero ** 3) "
-      ]
 
-  print(cadena)
+
 
 ### 4.3 Ejercicio 3 (1.2 puntos)
 Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un
