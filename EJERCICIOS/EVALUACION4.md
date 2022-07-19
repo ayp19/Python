@@ -6,7 +6,8 @@ y posteriormente muestre en pantalla cada elemento de la lista junto con su
 cuadrado y su cubo.
 Respuesta:
 
-```import random 
+```
+import random 
 listaNumeros = [] 
 for indice in range(1,11):
   listaNumeros.append(random.randint(1,10)) 
@@ -21,7 +22,8 @@ Crea una lista e inicializarla con 5 cadenas de caracteres leídas por teclado. 
 los elementos de la lista en otra lista pero en orden inverso, y muestra sus
 elementos por la pantalla.
 
-``` lista1=[]
+``` 
+lista1=[]
 lista2=[]
 for indice in range(1,6):
   lista1.append(input('Ingrese la cadena %d:'% indice))
@@ -58,7 +60,8 @@ muestra un mensaje de error. El programa termina cuando el usuario introduce un
 cero.
 
 
-```meses=("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre", "Noviembre","Diciembre")
+```
+meses=("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre", "Noviembre","Diciembre")
 num=int(input("Ingrese un número "))
 while num!= 0:
     if (num>=1 and num <= len(meses)):
