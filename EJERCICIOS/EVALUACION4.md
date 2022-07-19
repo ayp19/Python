@@ -32,25 +32,12 @@ elementos por la pantalla.
 
 
 lista1=[]
-
-
 lista2=[]
-
-
 for indice in range(1,6):
-
-
   lista1.append(input('Ingrese la cadena %d:'% indice))
-  
-  
-lista2= lista1[::-1]
-
-
+  lista2= lista1[::-1]
 for cadena in lista2:
-
-
   print(cadena)
-
 
 ### 4.3 Ejercicio 3 (1.2 puntos)
 Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un
