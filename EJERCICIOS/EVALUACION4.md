@@ -30,6 +30,9 @@ Crea una lista e inicializarla con 5 cadenas de caracteres leídas por teclado. 
 los elementos de la lista en otra lista pero en orden inverso, y muestra sus
 elementos por la pantalla.
 
+# se crea la listas
+
+
 
 ### 4.3 Ejercicio 3 (1.2 puntos)
 Se quiere realizar un programa que lea por teclado las 5 notas obtenidas por un
