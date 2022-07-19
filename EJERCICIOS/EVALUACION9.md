@@ -5,6 +5,24 @@ debe indicar si la respuesta ha sido correcta o no (en caso que la respuesta sea
 incorrecta el programa debe indicar cuál es la correcta). El programa preguntará
 10 multiplicaciones, y al finalizar mostrará el número de aciertos.
 
+```
+import random 
+aciertos=0
+num1=0
+num2=0
+for resultado in range (1, 11):
+   num1= random.randint (2,10)
+   num2= random.randint(2,10)
+   print(f'multiplica{ num1}*{num2}')
+   num= num1*num2  
+   resultado= int (input('ingrese el resultado'))
+   if resultado != num:
+      print(f'el resultado{resultado} es incorrecto la respuesta correcta es: {num}')
+   else:
+     aciertos= aciertos +1 
+     print('La respuesta ingresada es correcta')
+     ```
+
 #### Análisis
 * Hacemos un bucle con 10 iteraciones, en cada iteración se inicializan dos
 números con un valor aleatorio (de 2 a 10). Se calcula la multiplicación.
