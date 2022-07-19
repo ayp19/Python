@@ -6,7 +6,7 @@ y posteriormente muestre en pantalla cada elemento de la lista junto con su
 cuadrado y su cubo.
 Respuesta:
 
-'''import random 
+```import random 
 
 
 listaNumeros = [] 
@@ -21,7 +21,7 @@ for indice in range(1,11):
 for numero in listaNumeros:
 
 
-  print(numero," ",numero ** 2," ",numero ** 3)'''
+  print(numero," ",numero ** 2," ",numero ** 3)
 
 
 
