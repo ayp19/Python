@@ -55,8 +55,8 @@ entre 1 y la longitud máxima de la tupla, muestra el contenido de esa posición
 muestra un mensaje de error. El programa termina cuando el usuario introduce un
 cero.
 
-```
-meses=("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre", "Noviembre","Diciembre")
+
+```meses=("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre", "Noviembre","Diciembre")
 num=int(input("Ingrese un número "))
 while num!= 0:
     if (num>=1 and num <= len(meses)):
