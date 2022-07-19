@@ -21,7 +21,8 @@ for resultado in range (1, 11):
    else:
      aciertos= aciertos +1 
      print('La respuesta ingresada es correcta')
-     ```
+     
+```
 
 #### Análisis
 * Hacemos un bucle con 10 iteraciones, en cada iteración se inicializan dos
