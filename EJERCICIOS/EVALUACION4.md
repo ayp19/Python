@@ -7,21 +7,11 @@ cuadrado y su cubo.
 Respuesta:
 
 ```import random 
-
-
 listaNumeros = [] 
-
-
 for indice in range(1,11):
-
-
-  listaNumeros.append(random.randint(1,10))
-  
-  
+  listaNumeros.append(random.randint(1,10)) 
 for numero in listaNumeros:
-
-
-  print(numero," ",numero ** 2," ",numero ** 3)
+  print(numero," ",numero ** 2," ",numero ** 3)```
 
 
 
@@ -30,6 +20,13 @@ Crea una lista e inicializarla con 5 cadenas de caracteres leídas por teclado. 
 los elementos de la lista en otra lista pero en orden inverso, y muestra sus
 elementos por la pantalla.
 
+``` lista1=[]
+lista2=[]
+for indice in range(1,6):
+  lista1.append(input('Ingrese la cadena %d:'% indice))
+  lista2= lista1[::-1]
+for cadena in lista2:
+  print(cadena) ```
 
 
 
@@ -58,37 +55,17 @@ entre 1 y la longitud máxima de la tupla, muestra el contenido de esa posición
 muestra un mensaje de error. El programa termina cuando el usuario introduce un
 cero.
 
-
+```
 meses=("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre", "Noviembre","Diciembre")
-
-
 num=int(input("Ingrese un número "))
-
-
 while num!= 0:
-
-
     if (num>=1 and num <= len(meses)):
-    
-    
-        print(meses [num-1])
-        
-        
-        num=int(input("Ingrese un número "))
-        
-        
-    else:
-    
-    
-        print("Ingresa un número entre 1 y " ,len(meses))
-        
-        
-        num=int(input("Ingrese un número "))
-        
-        
+        print(meses [num-1])               
+        num=int(input("Ingrese un número "))        
+    else:    
+        print("Ingresa un número entre 1 y " ,len(meses))                
+        num=int(input("Ingrese un número "))                
 else:
-
-
-    print("fin")
+    print("fin")```
         
 # TRATA DE RESOLVER Y AVANZAR LO MÁS POSIBLE EN LOS EJERICICIOS, EL MARTES HABILITO "AYUDAS" EN CADA EJERCICIO
