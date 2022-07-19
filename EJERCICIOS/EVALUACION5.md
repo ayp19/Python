@@ -35,11 +35,15 @@ else:
 Programa que solicite un monto y que solicite el interés mensual, si el interés es mayor al 30% nos imprimirá que es incorrecto, si es menor realizará el cálculo e imprimira el monto con su interés adicionado.
 
 ```
+#Declaro las variables
 monto=0
 interes=0
 intAdicionado=0
+# solicito que ingrese el monto para almacenarlo en la variable monto
 monto=float(input('Ingrese el monto'))
+#Solicito que ingrese el interes para almacenarlo en la variable interes
 interes=float(input('Ingrese el interés'))
+#condición
 if interes >= 30:
     print('¡El interés es correcto!')
 else:
