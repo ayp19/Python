@@ -29,7 +29,7 @@ def doble(numero):
 numeros = [1,2,3,4,5,6,7,8,9,10]
 map(doble, numeros)
 list(map(doble, numeros))
-
+```
 
 ## Ejercicio 3 (2 puntos)
 Obtener la cantidad de elementos mayores a 5 en la tupla.
