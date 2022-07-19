@@ -9,20 +9,20 @@ Respuesta:
 import random 
 
 
-lista = []
+listaNumeros = [] 
 
 
 for indice in range(1,11):
 
 
-  lista.append(random.randint(1,10))
+  listaNumeros.append(random.randint(1,10))
   
   
-for numero in lista:
+for numero in listaNumeros:
 
 
-  print( numero," " , numero ** 2," ",numero ** 3)
-  
+  print(numero," ",numero ** 2," ",numero ** 3)
+
 
 
 ### 4.2 Ejercicio 2 (1.2 puntos)
