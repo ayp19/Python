@@ -11,7 +11,8 @@ listaNumeros = []
 for indice in range(1,11):
   listaNumeros.append(random.randint(1,10)) 
 for numero in listaNumeros:
-  print(numero," ",numero ** 2," ",numero ** 3)```
+  print(numero," ",numero ** 2," ",numero ** 3)
+  ```
 
 
 
@@ -26,7 +27,8 @@ for indice in range(1,6):
   lista1.append(input('Ingrese la cadena %d:'% indice))
   lista2= lista1[::-1]
 for cadena in lista2:
-  print(cadena) ```
+  print(cadena) 
+  ```
 
 
 
@@ -66,6 +68,7 @@ while num!= 0:
         print("Ingresa un número entre 1 y " ,len(meses))                
         num=int(input("Ingrese un número "))                
 else:
-    print("fin")```
+    print("fin")
+    ```
         
 # TRATA DE RESOLVER Y AVANZAR LO MÁS POSIBLE EN LOS EJERICICIOS, EL MARTES HABILITO "AYUDAS" EN CADA EJERCICIO
