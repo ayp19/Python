@@ -57,4 +57,36 @@ muestra un mensaje de error. El programa termina cuando el usuario introduce un
 cero.
 
 
+meses=("Enero","Febrero","Marzo","Abril","Mayo","Junio","Julio","Agosto","Septiembre","Octubre", "Noviembre","Diciembre")
+
+
+num=int(input("Ingrese un número "))
+
+
+while num!= 0:
+
+
+    if (num>=1 and num <= len(meses)):
+    
+    
+        print(meses [num-1])
+        
+        
+        num=int(input("Ingrese un número "))
+        
+        
+    else:
+    
+    
+        print("Ingresa un número entre 1 y " ,len(meses))
+        
+        
+        num=int(input("Ingrese un número "))
+        
+        
+else:
+
+
+    print("fin")
+        
 # TRATA DE RESOLVER Y AVANZAR LO MÁS POSIBLE EN LOS EJERICICIOS, EL MARTES HABILITO "AYUDAS" EN CADA EJERCICIO
