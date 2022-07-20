@@ -54,7 +54,7 @@ print('-----------------------------------')
 print("Nota media: ",sum(notas)/len(notas))
 print("Nota max: ",max(notas))
 print("Nota min: ",min(notas))
-
+```
 
 ### 4.4 Ejercicio 4 (1.2 puntos)
 Codifica un programa en python que nos permita guardar los nombres de los
