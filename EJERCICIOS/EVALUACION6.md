@@ -123,7 +123,7 @@ if num >0:
             print(i,"es primo")
 else:
     print('el número ingresado es incorrecto')
-
+```
 
 ## Ejercicio 3 (1.5 puntos)
 Una persona adquirió un producto para pagar en 20 meses. El primer mes pagó
