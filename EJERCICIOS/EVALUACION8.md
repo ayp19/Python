@@ -6,6 +6,14 @@ valores sean los cuadrados de las claves.
 
 Ejemplo: si se ingresa el 4 imprima el cuadrado de 1, de 2, de 3 y de 4
 
+```
+numero = int(input("Ingres un número"))
+cuadrado = {}
+
+for num in range(1,numero+1):
+    cuadrado[num] = num * num
+for num, valor in cuadrado.items():
+    print("%d =%d" % (num,valor))
 
 
 
