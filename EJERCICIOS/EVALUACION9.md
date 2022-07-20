@@ -63,7 +63,7 @@ def filtro(i):
   mayor =filter(filtro,tupla)
   for i in mayor:
     print(i)
-
+```
 
 ## Ejercicio 4 (2 puntos)
 Obtener la suma de todos los elementos en la lista
@@ -72,7 +72,7 @@ lista = [1,2,3,4]
 
 ```
 
-  from functools import reduce   #traemos el módulo para poder utiliarla
+  from functools import reduce 
 
   def add(x, y):
       return x + y
