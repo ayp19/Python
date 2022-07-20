@@ -6,7 +6,7 @@ valores sean los cuadrados de las claves.
 
 Ejemplo: si se ingresa el 4 imprima el cuadrado de 1, de 2, de 3 y de 4
 
-```
+
 
 
 
@@ -27,7 +27,7 @@ for palabra in cadena:
 for letra,valor in diccionario.items():
 	print (f'{letra}= {valor}')
 
-
+```
 
 ## Ejercicio 3 (2 puntos)
 Vamos a crear un programa en python donde vamos a declarar un diccionario para
