@@ -69,6 +69,24 @@ final el programa nos mostrará la lista de alumnos y la nota media obtenida por
 cada uno de ellos. Nota: si se introduce el nombre de un alumno que ya existe el
 programa nos dará un error.
 
+```
+alumnos = {}
+notas=[]
+cantidad = int(input("Introduce el número de alumnos a guardar"))
+for num in range(cantidad):
+    alumno = input("Nombre del alumno:")
+    while alumno in alumnos:
+      print("Este alumno ya existe.")
+      alumno = input("Nombre del alumno:")
+    nota = int(input("Ingresa la nota del alumno ( ingrese una nota negativa para terminar):"))
+    while nota > 0:
+      notas.append(nota)
+      nota = int(input("Ingresa la nota del alumno (ingrese una nota negativa para terminar):"))
+      alumnos[alumno] = notas.copy()
+    for alumno, notas in alumnos.items():
+      print("%s ha sacado de nota media %.2f" % (alumno,sum(notas)/len(notas)))
+```
+
 
 ### 4.5 Ejercicio 5 (1.2 puntos)
 Crea una tupla con los meses del año, pide números al usuario, si el número está
