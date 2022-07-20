@@ -14,7 +14,7 @@ for num in range(1,numero+1):
     cuadrado[num] = num * num
 for num, valor in cuadrado.items():
     print("%d =%d" % (num,valor))
-
+```
 
 
 
