@@ -73,9 +73,9 @@ lista = [1,2,3,4]
 ```
 from functools import reduce   
 
-  def add(x, y):
+def add(x, y):
       return x + y
 
-  lista = [1, 2, 3, 4]
-  print(reduce(add, lista))
+lista = [1, 2, 3, 4]
+print(reduce(add, lista))
 ```
