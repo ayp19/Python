@@ -55,6 +55,16 @@ Obtener la cantidad de elementos mayores a 5 en la tupla.
 
 tupla = (5,2,6,7,8,10,77,55,2,1,30,4,2,3)
 
+```
+tupla = (5,2,6,7,8,10,77,55,2,1,30,4,2,3)
+def filtro(i):
+  if i >5:
+    return True
+  mayor =filter(filtro,tupla)
+  for i in mayor:
+    print(i)
+
+
 ## Ejercicio 4 (2 puntos)
 Obtener la suma de todos los elementos en la lista
 
