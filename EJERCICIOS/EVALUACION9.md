@@ -71,12 +71,11 @@ Obtener la suma de todos los elementos en la lista
 lista = [1,2,3,4]
 
 ```
-
-  from functools import reduce 
+  from functools import reduce   #traemos el módulo para poder utiliarla
 
   def add(x, y):
       return x + y
 
-  lista = [1, 2, 3, 4]
+  lista = [2, 4, 7, 3]
   print(reduce(add, lista))
-  ```
+```
