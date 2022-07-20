@@ -98,8 +98,7 @@ elif(opcion == 5):
 
 else:
     print(f'Opción no valida ')
-
-
+```
 
 
 ## Ejercicio 2 (1.5 puntos)
