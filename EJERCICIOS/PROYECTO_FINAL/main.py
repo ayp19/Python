@@ -73,7 +73,7 @@ def ahorcado():
     else:# en caso de que este no sea el caso se mostrara el mensaje 
         print(f'¡Excelente! ¡Adivinaste la palabra {palabra}!')
 
-
+#no corre el programa ya que le falta ... if __name__ == '__main__':
     ahorcado()# se llama a la función ahorcado para ejecutar el programa
     
 ```
