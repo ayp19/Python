@@ -107,7 +107,7 @@ while num!= 0:
         num=int(input("Ingrese un número "))                
 else:
     print("fin")
-    
-    
+ 
+
         
 # TRATA DE RESOLVER Y AVANZAR LO MÁS POSIBLE EN LOS EJERICICIOS, EL MARTES HABILITO "AYUDAS" EN CADA EJERCICIO
