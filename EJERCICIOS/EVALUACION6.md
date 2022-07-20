@@ -109,6 +109,9 @@ Ejemplo: si ingresamos el 10 nos imprima del 1 a ese 10 cuales números son prim
 
 ```
 
+num=0
+contador=0
+numPrim=0
 num=int(input('Ingresa un número: ')) 
 if num >0:
     for i in range (2,num):
@@ -118,11 +121,12 @@ if num >0:
             if i % contador == 0:
                 numPrim=False
             else:
-                contador  += 1
+                contador  =contador+ 1
         if numPrim:
             print(i,"es primo")
 else:
     print('el número ingresado es incorrecto')
+    
 ```
 
 ## Ejercicio 3 (1.5 puntos)
@@ -134,3 +138,4 @@ después de los 20 meses.
 Al finalizar los 20 meses pago en total:
 
 primer mes pago 10, segundo mes pago 20, tercer mes pago 30, cuarto mes pago 40, etc.
+
