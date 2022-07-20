@@ -107,6 +107,24 @@ Se pide por teclado un número y nos imprime los números primos que hay previos
 Ejemplo: si ingresamos el 10 nos imprima del 1 a ese 10 cuales números son primos.
 
 
+```
+
+num=int(input('Ingresa un número: ')) 
+if num >0:
+    for i in range (2,num):
+        contador=2
+        numPrim=True
+        while numPrim and contador< i:
+            if i % contador == 0:
+                numPrim=False
+            else:
+                contador  += 1
+        if numPrim:
+            print(i,"es primo")
+else:
+    print('el número ingresado es incorrecto')
+
+
 ## Ejercicio 3 (1.5 puntos)
 Una persona adquirió un producto para pagar en 20 meses. El primer mes pagó
 10 €, el segundo 20 €, el tercero 40 € y así sucesivamente. Realizar un algoritmo
